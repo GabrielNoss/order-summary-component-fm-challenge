@@ -47,11 +47,13 @@ body {
 }
 /*Icon - price - p section*/
 .icon-music {
+    background-color: hsl(225, 100%, 98%);
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 1.5em 1.5em 1.5em;
     padding: 2em;
+    font-size: .9rem;
 }
 .img-left {
     display: flex;
@@ -96,7 +98,7 @@ body {
     margin-bottom: 1.65em;
 }
 .btn {
-    width: 275px;
+    width: 300px;
     height: 50px;
     display: block;
     margin-left: auto;
