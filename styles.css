@@ -7,10 +7,10 @@
 body {
     background-image: url(./images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
-    background-size: contain;
-    color: hsl(225, 100%, 94%);
+    background-size: 100%;
+    background-color: hsl(225, 100%, 94%);
     display: grid;
-    font-family: 'Red Hat Display';
+    font-family: 'Red Hat Display', sans-serif;
     padding-top: 100px;
 }
 .container {
@@ -127,9 +127,9 @@ body {
 @media  only screen and (min-width: 768px) {
     body {
         background: url(./images/pattern-background-desktop.svg);
-        color:hsl(225, 100%, 94%);
+        background-color:hsl(225, 100%, 94%);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 100%;
     }
     .container {
         max-width: 450px;
